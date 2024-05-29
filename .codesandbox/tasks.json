@@ -11,28 +11,23 @@
   "tasks": {
     "start": {
       "name": "start",
-      "command": "npm run start",
-      "runAtStart": false
+      "command": "npm run start"
     },
     "wundergraph": {
       "name": "wundergraph",
-      "command": "npm run wundergraph",
-      "runAtStart": false
+      "command": "npm run wundergraph"
     },
     "generate": {
       "name": "generate",
-      "command": "npm run generate",
-      "runAtStart": false
+      "command": "npm run generate"
     },
     "open": {
       "name": "open",
-      "command": "npm run open",
-      "runAtStart": false
+      "command": "npm run open"
     },
     "build": {
       "name": "build",
-      "command": "npm run build",
-      "runAtStart": false
+      "command": "npm run build"
     },
     "dev": {
       "name": "dev",
@@ -41,8 +36,7 @@
     },
     "check": {
       "name": "check",
-      "command": "npm run check",
-      "runAtStart": false
+      "command": "npm run check"
     }
   }
 }

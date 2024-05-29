@@ -24,9 +24,9 @@ export const authOptions: AuthOptions = {
       clientSecret: process.env.GITHUB_SECRET,
     }),
     KeycloakProvider({
-      clientId: process.env.KC_CLIENT_ID,
-      clientSecret: "bBRP2VD0xPvT2JYZFR6HUlZdSwpNj1HR",
-      issuer: process.env.KC_ISSUER,
+      clientId: process.env.REACT_APP_KC_CLIENT_ID,
+      clientSecret: process.env.REACT_APP_KC_SECRET,
+      issuer: process.env.REACT_APP_KC_ISSUER,
       id: "keycloak",
       name: "keycloak",
       jwks_endpoint:
